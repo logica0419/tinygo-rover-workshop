@@ -1,3 +1,5 @@
 .history/
-pcb-backups/
+*-backups/
 *.lck
+*.bak
+_autosave-*
