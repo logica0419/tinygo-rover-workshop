@@ -2190,7 +2190,7 @@
 			)
 		)
 		(symbol "XIAO-ESP32-C6-SMD_1_1"
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 3.81 0)
 				(length 2.54)
 				(name "GPIO0_A0_D0"
@@ -2208,7 +2208,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 0 0)
 				(length 2.54)
 				(name "GPIO1_A1_D1"
@@ -2226,7 +2226,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 -3.81 0)
 				(length 2.54)
 				(name "GPIO2_A2_D2"
@@ -2244,7 +2244,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 -7.62 0)
 				(length 2.54)
 				(name "GPIO21_D3"
@@ -2262,7 +2262,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 -11.43 0)
 				(length 2.54)
 				(name "GPIO22_D4_SDA"
@@ -2280,7 +2280,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 -15.24 0)
 				(length 2.54)
 				(name "GPIO23_D5_SCL"
@@ -2298,7 +2298,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -21.59 -19.05 0)
 				(length 2.54)
 				(name "GPIO16_D6_TX"
@@ -2316,7 +2316,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 21.59 -19.05 180)
 				(length 2.54)
 				(name "GPIO17_D7_RX"
@@ -2334,7 +2334,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 21.59 -15.24 180)
 				(length 2.54)
 				(name "GPIO19_D8_SCK"
@@ -2352,7 +2352,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 21.59 -11.43 180)
 				(length 2.54)
 				(name "GPIO20_D9_MISO"
@@ -2370,7 +2370,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 21.59 -7.62 180)
 				(length 2.54)
 				(name "GPIO18_D10_MOSI"
@@ -2388,7 +2388,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 21.59 -3.81 180)
 				(length 2.54)
 				(name "3V3"
@@ -2406,7 +2406,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 21.59 0 180)
 				(length 2.54)
 				(name "GND"
@@ -2424,7 +2424,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 21.59 3.81 180)
 				(length 2.54)
 				(name "VBUS"
@@ -2442,7 +2442,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -12.7 22.86 270)
 				(length 2.54)
 				(name "GPIO5_MTDI"
@@ -2460,7 +2460,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -8.89 22.86 270)
 				(length 2.54)
 				(name "GPIO7_MTDO"
@@ -2478,7 +2478,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -5.08 22.86 270)
 				(length 2.54)
 				(name "CHIP_EN"
@@ -2496,7 +2496,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 22.86 270)
 				(length 2.54)
 				(name "GND"
@@ -2514,7 +2514,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 2.54 22.86 270)
 				(length 2.54)
 				(name "GPIO4_MTMS"
@@ -2532,7 +2532,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 6.35 22.86 270)
 				(length 2.54)
 				(name "GPIO6_MTCK"
@@ -2550,7 +2550,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 10.16 22.86 270)
 				(length 2.54)
 				(name "GPIO9_BOOT"
@@ -2568,7 +2568,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 13.97 22.86 270)
 				(length 2.54)
 				(name "3V3"
@@ -2586,7 +2586,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -2.54 -29.21 90)
 				(length 2.54)
 				(name "BAT"
@@ -2604,7 +2604,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 2.54 -29.21 90)
 				(length 2.54)
 				(name "GND"
