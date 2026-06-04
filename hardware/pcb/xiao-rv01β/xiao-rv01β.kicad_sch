@@ -7084,7 +7084,7 @@
 	)
 	(rectangle
 		(start 342.9 168.91)
-		(end 400.05 226.06)
+		(end 400.05 214.63)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7523,7 +7523,7 @@
 		(uuid "8fdd367f-7dbe-481f-aa8b-99cdd52fbe19")
 	)
 	(junction
-		(at 361.95 214.63)
+		(at 361.95 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9030d649-d24f-4f05-ac57-c35715c9979d")
@@ -7575,6 +7575,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eb446b6-fc6a-4735-9878-bb9d28cb6f79")
+	)
+	(junction
+		(at 361.95 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a33f53c5-88ae-4d8e-9345-24b768f4bb14")
 	)
 	(junction
 		(at 269.24 236.22)
@@ -7647,12 +7653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdd6118a-d7c5-403e-b19d-8ea05c2e2042")
-	)
-	(junction
-		(at 361.95 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be3fd95f-d78a-4a3e-b961-b456eacba674")
 	)
 	(junction
 		(at 118.11 43.18)
@@ -8598,7 +8598,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 214.63) (xy 374.65 214.63)
+			(xy 361.95 203.2) (xy 374.65 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9198,7 +9198,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 212.09) (xy 361.95 214.63)
+			(xy 361.95 200.66) (xy 361.95 203.2)
 		)
 		(stroke
 			(width 0)
@@ -10818,7 +10818,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 217.17) (xy 361.95 214.63)
+			(xy 361.95 205.74) (xy 361.95 203.2)
 		)
 		(stroke
 			(width 0)
@@ -11568,7 +11568,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 190.5) (xy 361.95 204.47)
+			(xy 361.95 190.5) (xy 361.95 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11798,7 +11798,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 198.12) (xy 374.65 214.63)
+			(xy 374.65 198.12) (xy 374.65 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13636,7 +13636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 217.17 0)
+		(at 361.95 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13647,7 +13647,7 @@
 		(fields_autoplaced yes)
 		(uuid "064f9624-f6de-4c0e-9077-3fdba2566400")
 		(property "Reference" "#PWR014"
-			(at 361.95 223.52 0)
+			(at 361.95 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13658,7 +13658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 222.25 0)
+			(at 361.95 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13668,7 +13668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 217.17 0)
+			(at 361.95 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13679,7 +13679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 217.17 0)
+			(at 361.95 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13690,7 +13690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 361.95 217.17 0)
+			(at 361.95 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18450,7 +18450,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 361.95 208.28 0)
+		(at 361.95 196.85 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18462,7 +18462,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa9bd04e-8d25-441e-8d97-cdcfac45de91")
 		(property "Reference" "C10"
-			(at 358.14 207.0099 0)
+			(at 358.14 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18473,7 +18473,7 @@
 			)
 		)
 		(property "Value" "47µF/10V"
-			(at 358.14 209.5499 0)
+			(at 358.14 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18484,7 +18484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 362.9152 204.47 0)
+			(at 362.9152 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18495,7 +18495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 208.28 0)
+			(at 361.95 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18506,7 +18506,7 @@
 			)
 		)
 		(property "Description" "Bypass capacitor"
-			(at 361.95 208.28 0)
+			(at 361.95 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
