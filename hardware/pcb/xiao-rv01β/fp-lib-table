@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "New_XIAO_Series_Footprints") (type "KiCad") (uri "${KIPRJMOD}/../lib/New_XIAO_Series_Footprints") (options "") (descr ""))
 	(lib (name "HC-SR04") (type "KiCad") (uri "${KIPRJMOD}/../lib/HC-SR04") (options "") (descr ""))
+  (lib (name "TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/../lib/TPS61023DRLR") (options "") (descr ""))
 )
