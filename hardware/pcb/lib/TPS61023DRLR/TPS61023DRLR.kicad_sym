@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 24.13 7.62 0)
+			(at 6.35 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "TPS61023DRLR"
-			(at 24.13 5.08 0)
+			(at 6.35 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "SOTFL50P160X60-6N"
-			(at 24.13 -94.92 0)
+			(at 6.35 -92.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61023.pdf"
-			(at 24.13 -194.92 0)
+			(at 6.35 -192.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -55,7 +55,7 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"
-			(at 0 0 0)
+			(at -17.78 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 24.13 -394.92 0)
+			(at 6.35 -392.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -78,7 +78,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TPS61023DRLR"
-			(at 24.13 -494.92 0)
+			(at 6.35 -492.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -90,7 +90,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLR?qs=BJlw7L4Cy7%2FfEnwYuWeGOg%3D%3D"
-			(at 24.13 -594.92 0)
+			(at 6.35 -592.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -102,7 +102,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 24.13 -694.92 0)
+			(at 6.35 -692.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -114,7 +114,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TPS61023DRLR"
-			(at 24.13 -794.92 0)
+			(at 6.35 -792.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -127,8 +127,8 @@
 		)
 		(symbol "TPS61023DRLR_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 22.86 -7.62)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -138,7 +138,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -156,7 +156,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at -10.16 0 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -174,7 +174,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -192,7 +192,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 0 180)
+				(at 10.16 2.54 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -210,7 +210,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -2.54 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -228,7 +228,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -5.08 180)
+				(at 10.16 -2.54 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects

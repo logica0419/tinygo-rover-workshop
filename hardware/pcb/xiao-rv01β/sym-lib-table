@@ -5,5 +5,6 @@
   (lib (name "HC-SR04") (type "KiCad") (uri "${KIPRJMOD}/../lib/HC-SR04/HC-SR04.kicad_sym") (options "") (descr ""))
   (lib (name "TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/../lib/TPS61023DRLR/TPS61023DRLR.kicad_sym") (options "") (descr ""))
   (lib (name "S-82A1A") (type "KiCad") (uri "${KIPRJMOD}/../lib/S-82A1A/S-82A1A.kicad_sym") (options "") (descr ""))
+  (lib (name "CSD87501L") (type "KiCad") (uri "${KIPRJMOD}/../lib/CSD87501L/CSD87501L.kicad_sym") (options "") (descr ""))
   (lib (name "foostan/kbd") (type "KiCad") (uri "${KIPRJMOD}/../lib/kbd.kicad_sym") (options "") (descr ""))
 )
